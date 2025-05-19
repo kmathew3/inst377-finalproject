@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weekly Promos</title>
+  <script src="js/promo.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lodash"></script>
+  <link rel="stylesheet" href="kroger.css">
+  
+</head>
+<body>
+    <h1>Shop At Kroger</h1>
+    <nav class="navbar">
+  <a href="home.html">Home</a>
+  <a href="search.html">Search</a>
+  <a href="order.html">Order</a>
+  <a href="promo.html">Promos</a>
+  <a href="about.html">About</a>
+</nav>
+  <h1>Weekly Promotions</h1>
+  <div id="promo-section"></div>
+  <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="https://5.imimg.com/data5/IF/AJ/MY-35840334/lays-chips-1000x1000.jpg" alt="Promo 1" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://i5.walmartimages.com/seo/Healthy-Choice-Cafe-Steamers-Four-Cheese-Ravioli-Chicken-Marinara-Frozen-10-oz-Frozen_ad2627a7-887a-4f75-bcda-c4627cb48f83.fb26a79d9cf0d6dd9a194f69ec6c381b.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF.jpeg" alt="Promo 2" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <script>
+      const swiper = new Swiper('.mySwiper', {
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        autoplay: {
+          delay: 3000,
+        },
+      });
+    </script>
+</body>
+</html>

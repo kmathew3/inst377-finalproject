@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search Kroger</title>
+  <link rel="stylesheet" href="kroger.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+<body>
+  <h1>Shop At Kroger</h1>
+  <nav class="navbar">
+    <a href="home.html">Home</a>
+    <a href="search.html">Search</a>
+    <a href="order.html">Order</a>
+    <a href="promo.html">Promos</a>
+    <a href="about.html">About</a>
+  </nav>
+
+  <h2>Search for Products</h2>
+  <form id="search-form">
+    <input type="text" id="search-input" placeholder="e.g. apples" required />
+    <button type="submit">Search</button>
+  </form>
+
+  <div id="results"></div>
+
+  <script type="module" src="js/search.js"></script>
+  <canvas id="categoryChart"></canvas>
+</body>
+</html>

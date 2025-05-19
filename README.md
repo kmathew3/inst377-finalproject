@@ -1,5 +1,4 @@
 # Kroger Web App
-Live Demo: https://your-vercel-deployment-link.vercel.app
 
 # Project Description
 This web application helps users find, browse, and plan their grocery shopping using real-time product data from the Kroger public API. It includes featured deals, categorized navigation, dynamic search, and order customization through available delivery/pickup options.

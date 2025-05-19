@@ -7,9 +7,8 @@ This describes the API endpoints of the Kroger Web App.
 Local Development:
 http://localhost:3000/api
 
-Production (Vercel or other):
-https://your-deployment-url.vercel.app/api
-
+Production (Vercel):
+https://inst377-finalproject-4hv8.vercel.app/
 
 # API Endpoints Overview
  - GET `/api/products` returns a list of products based on a search term

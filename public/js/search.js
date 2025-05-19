@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     resultsDiv.innerHTML = 'Loading...';
 
     try {
-      const data = await searchProducts(query); // this hits /api/search?query=...
+      const data = await searchProducts(query);
       const products = data.data;
 
       if (!Array.isArray(products) || products.length === 0) {

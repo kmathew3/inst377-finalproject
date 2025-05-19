@@ -35,7 +35,7 @@ async function getAccessToken() {
             }
         );
 
-        console.log('Access token:', response.data.access_token); // Debugging line
+        console.log('Access token:', response.data.access_token);
 
         return response.data.access_token;
     } catch (err) {
